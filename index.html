@@ -123,4 +123,4 @@ cv.addEventListener('pointerup',e=>{if(!down||busy){down=null;return}const u=cel
  if(Math.hypot(dx,dy)>R.width/N/3){const h=Math.abs(dx)>Math.abs(dy);trySwap(down.r,down.c,down.r+(h?0:Math.sign(dy)),down.c+(h?Math.sign(dx):0))}
  else{if(sel&&Math.abs(sel.r-down.r)+Math.abs(sel.c-down.c)==1){trySwap(sel.r,sel.c,down.r,down.c)}else sel={r:down.r,c:down.c}}down=null});
 window.__crush={start,trySwap,findMove,get state(){return{score,moves,collected,busy,target:L&&L.target,save}},setScore(s){score=s}};
-</script></body></html>
+</script><!--cb-game-cart-start--><section id="cb-game-cart" data-store="crush" aria-label="Cart"><script type="application/json" id="cb-game-cart-data">{"storeId":"crush","currency":"USD","items":[{"id":"full","name":"Coffeebreak Crush","amount":"10.00","currency":"USD"}]}</script></section><script src="payid-cart/cart.js"></script><script src="payid-cart/game-cart.js"></script><script src="payid-cart/game-mount.js"></script><!--cb-game-cart-end--></body></html>
